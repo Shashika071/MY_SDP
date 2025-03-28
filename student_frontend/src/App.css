@@ -1,5 +1,13 @@
+/* App.css */
+
 .App {
   text-align: center;
+  background-size: cover; /* Ensure the background covers the entire screen */
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Keep the background fixed while scrolling */
+  min-height: 100vh; /* Ensures the background fills the entire viewport height */
+  display: flex; /* Use flexbox to lay out components inside the App */
+  flex-direction: column; /* Stack components vertically */
 }
 
 .App-logo {
@@ -14,7 +22,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgba(40, 44, 52, 0.8); /* Slight opacity for the header background */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +43,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Optional: Style for the See All Posts Link */
+.see-all-posts {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.see-all-posts:hover {
+  text-decoration: underline;
 }

@@ -1,0 +1,109 @@
+/* Feature Card Background Colors */
+.feature-card {
+    background-color: #ffffff; /* White background for cards */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+    border-radius: 12px;
+}
+
+/* Adding specific background color for each feature card */
+.feature-card:nth-child(1) {
+    background-color: #e3f2fd; /* Light blue for 'Various Adventures' */
+}
+
+.feature-card:nth-child(2) {
+    background-color: #f1f8e9; /* Light green for 'Adventurous Trails' */
+}
+
+.feature-card:nth-child(3) {
+    background-color: #fff3e0; /* Light orange for 'Trained Guides' */
+}
+
+.feature-card:nth-child(4) {
+    background-color: #fbe9e7; /* Light pink for 'Family Trips' */
+}
+
+.feature-card:nth-child(5) {
+    background-color: #f1f8ff; /* Light purple for 'Custom Packages' */
+}
+
+.feature-card:nth-child(6) {
+    background-color: #e8f5e9; /* Light mint green for 'Complete Guide' */
+}
+
+/* Feature Card Hover Effects */
+.feature-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Title Styling */
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+h4 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+/* Icon Styling */
+.feature-card i {
+    font-size: 40px;
+    color: #00f100;
+    transition: color 0.3s ease;
+}
+
+.feature-card:hover i {
+    color: #51b300;
+}
+
+/* Button Styling */
+.feature-card button {
+    transition: background-color 0.3s ease;
+    background-color: #10c407;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.feature-card button:hover {
+    background-color: #0056b3;
+}
+
+/* General Spacing and Layout Adjustments */
+.container {
+    padding: 60px 15px;
+}
+
+.row.mt-4 {
+    margin-top: 40px;
+}
+
+.mb-4 {
+    margin-bottom: 2rem;
+}
+
+/* Darker Background Section */
+.features-section {
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+
+/* Ensure text is clearly visible */
+.text-light {
+    color: #000000 !important;
+}
+.container-fluid {
+    padding-left: 50px;  /* Add 50px left padding */
+    padding-right: 50px; /* Add 50px right padding */
+  }
+  
+@media (max-width: 768px) {
+    .container-fluid {
+        padding-left: 20px;  /* Add 50px left padding */
+        padding-right: 20px; /* Add 50px right padding */
+      }
+}

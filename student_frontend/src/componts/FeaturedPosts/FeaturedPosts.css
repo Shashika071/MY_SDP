@@ -1,0 +1,70 @@
+/* FeaturedPosts.css */
+
+/* Global styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+/* Post Card Styles */
+.post-card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #ececec;
+  border: #adadad 2px solid;
+  border-radius: 12px;
+}
+
+.post-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.post-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 8px;
+}
+
+.post-category {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 5px;
+}
+
+.post-summary {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+/* Featured title */
+.featured-title {
+  margin-top: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 1.5rem;
+  font-family: 'Protest Revolution', sans-serif;
+}
+
+/* See all posts link */
+.see-all-posts {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.see-all-posts:hover {
+  text-decoration: underline;
+}
